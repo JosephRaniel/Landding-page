@@ -90,6 +90,7 @@
     }
 
     #divBusca{
+      display: flex;
       background-color:white;
       border:solid 1px;
       border-radius:15px;
@@ -117,4 +118,8 @@
       text-align: center;
       font-size: 38px;
       font-weight: 700px;
+    }
+    
+    #btn-pesquisar {
+      border-radius: 6px;
     }
