@@ -1,0 +1,120 @@
+* {
+    margin: o;
+    padding: 0;
+}
+ 
+      body { 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 1500px;
+        margin: auto;
+
+      }
+
+      .img-back {  
+        display: flex;
+        flex-flow: column;
+        -webkit-box-align: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        padding-top: 16px;
+        padding-bottom: 192px;
+        background-image:url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg);
+
+      }
+
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      #logo1 {
+        width: 150px;
+        height: 75px;
+        
+      }
+    
+    .content-logo { 
+        margin-left: 510px;
+        margin-right: 0;
+        margin-bottom: 3; }
+
+
+    
+   
+    
+    .btns-1{ 
+        margin-left: 370px;
+        font-weight: 600;
+         }
+
+         #btn-css {
+      color: black;
+      background-color: white;
+      font-size: 15px;
+      font-weight: 700;
+      border: 2px solid white;
+      padding: 8px;
+      border-radius: 80px;
+      margin-right: 5px;
+    }
+    li {
+      display: inline-block;
+      padding: 5px;
+      margin: 0;
+    }       
+
+    .link1{
+      text-align: center;
+      
+    }
+    #al1 {
+      color: white;
+      cursor: pointer;
+    }
+    #al1:hover {
+      color: tomato;
+      transition: 0.4 all;
+    }
+   
+    .text-2 {
+      display:flex ;
+      flex-direction: column;
+      justify-content: center;
+     
+    }
+
+    #divBusca{
+      background-color:white;
+      border:solid 1px;
+      border-radius:15px;
+      width:300px;
+    }
+    
+    #txtBusca{
+      float:left;
+      background-color:transparent;
+      padding-left:5px;
+      font-size:18px;
+      border:none;
+      height:32px;
+      width:260px;
+    }
+
+    #btnBusca {
+      width: 19px;
+      height: 23px;
+      
+    }
+    .h2-title {
+      color: white;
+      font-family:Segoe UI;
+      text-align: center;
+      font-size: 38px;
+      font-weight: 700px;
+    }
